@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Teko;
+    src: url(Teko-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* hero-section */
+
+.hero-section{
+    background-color: #0E0B16;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(135deg, #7c14ea, #0a2045);
+}
+
+.hero-left{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-header{
+    color: #E0E0E0;
+    font-size: 2rem;
+    margin: 0px 20px;
+    font-family: Teko;
+}
+
+.hero-left h1{
+    font-weight: 600;
+    font-size: 8rem;
+    margin: 0px 20px;
+    font-family: Teko;
+}
+
+.register-btn{
+    background-color: white;
+    color: #6A11CB;
+    border: none;
+    padding: 5px 25px;
+    width: fit-content;
+    font-size: 1.5rem;
+    margin: 0 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    font-family: Teko;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.register-btn:hover{
+    box-shadow: 0 0 20px #2575FC;
+    color: hsl(269, 85%, 60%);
+    transform: scale(1.03);
+}
+
+/* event-overview */
+
+.event-overview{
+    background-color: #0D1224;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-overview h3{
+    font-family: Teko;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.overview-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #E0E0E0;
+}
+
+.highlights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* schedule */
+
+.schedule{
+    background-color: #0D1224;
+    padding: 80px 10%;
+}
+
+.schedule-header{
+    color: #ffffff;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: Teko;
+}
+
+.content-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.c-card h3{
+    color: #9B5CFF;
+    margin-bottom: 20px;
+    font-family: Teko;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.c-card{
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+}
+
+.c-card:hover{
+    box-shadow: 0 0 25px rgba(124, 20, 234, 0.3);
+    transform: translateY(-3px);
+}
+
+.c-card span{
+    color: #2A7FFF;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.c-card p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* registeration-form */
+
+.register{
+    background-color: #0D1224;
+    padding: 80px 10%;
+}
+
+.reg-header{
+    font-family: Teko;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.reg-card{
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+}
+
+.reg-card:hover{
+    box-shadow: 0 0 25px rgba(124, 20, 234, 0.3);
+    transform: translateY(-3px);
+}
+
+.reg-card-header{
+    color: #9B5CFF;;
+    font-family: Teko;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.inputs input{
+    margin: 0px;
+    width: 300px;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 25px;
+}
+
+.inputs button{
+    color: white;
+    background-color: #6A11CB;
+    border: none;
+    padding: 5px 25px;
+    width: fit-content;
+    font-size: 1.5rem;
+    margin: 0 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    font-family: Teko;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.inputs button:hover{
+    box-shadow: 0 0 5px #4c82dd;
+    color: #E0E0E0;
+    transform: scale(1.05);
+}
+
+/* footer */
+footer {
+    background: #0b1b58;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
